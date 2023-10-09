@@ -21,7 +21,7 @@
 			
 		<div class="col-4 ms-0 rounded">
 		<label for="first-name-input">First Name</label>
-		<input type="text" id="first-name-input"  required>
+		<input type="text" id="first-name-input" class="form-control"  required>
 			<div class="invalid-feedback">
       First Name required
     </div>
@@ -29,7 +29,7 @@
 
 		<div class="col-4 ms-5 " >
 		<label for="last-name-input">Last Name</label>
-		<input type="text" id="last-name-input" required>
+		<input type="text" id="last-name-input" class="form-control"  required>
 
 			<div class="invalid-feedback">
            Last Name required
@@ -38,20 +38,24 @@
 
 		<div class="col-4 ms-0">
 		<label for="email-input">Email Address</label>
-		<input type="text" id="email-input" required >
-			<div class="valid-feedback">
+		<input type="text" id="email-input" class="form-control"  required >
+			<div class="invalid-feedback">
       Email required
     </div>
 		</div>
 
 		<div class="col-4 ms-5">
 		<label for="college-input"> College</label>
-		<input type="text" id="college-input" required >
+		<input type="text" id="college-input" class="form-control"  required >
+		</div>
+			<div class="invalid-feedback">
+      college name is required
+    </div>
 		</div>
 
 		<div class="col-4 pt-3">
 		<label for="graduation-year-input">Graduation Year</label>
-		 <select id="graduation-year-input">
+		 <select id="graduation-year-input" class="form-control"required>
          <option value="">choose</option>
          <option value="">2020</option>
          <option value="">2021</option>
@@ -62,11 +66,11 @@
 
 		<div class="col-4 pt-3">
 	     <label for="roll-no-input"> Roll No.</label>
-		 <input type="number" id="roll-no-input" required>
+		 <input type="number" id="roll-no-input" class="form-control"  required>
 		</div>
 
 		<div class="col-12 pt-3">
-		<input type="checkbox" id="condition checkbox" required>
+		<input type="checkbox" id="condition checkbox" class="form-control"  required>
 		<label for="condition-checkbox">Agree to terms and condition</label>
 		</div>
 
